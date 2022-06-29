@@ -1,11 +1,94 @@
+/*------------------------------------------------Top Navbar Start------------------------------------------ */
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
 
-.row {
+.top-nav {
+  background-color: #0d4f9a;
+}
+
+.top-nav a {
+  color: white;
+}
+
+.top-nav-dropdown {
+  border-radius: 0px;
+  background-color: #063469;
+}
+
+.top-nav-dropdown a {
+  color: white;
+}
+
+.top-nav-dropdown li {
+  border-top: 0.1em solid rgba(8, 75, 150, 0.5);
+}
+
+span.cart-ico {
+  margin-right: 0px;
+  margin-left: 3px;
+}
+
+span.user-ico {
+  margin-right: 0;
+}
+
+/* -------------------------------------------------Top Navbar End-------------------------------------------- */
+
+/* --------------------------------------------------main navbar start------------------------------------------ */
+
+span.search-contact {
+  font-size: 11px;
+  color: #2bb34d;
+  font-weight: bold;
+  /* vertical-align: middle; */
+  /* margin-bottom: 11px; */
+  /* text-align: end; */
+}
+
+.search {
+  margin-right: 20px;
+}
+
+.search-bar {
+  padding-top: 10px;
+}
+
+.biotrust-image {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.main-nav {
+  border-bottom: 5px solid #0d4f9a;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.main-nav-dropdown {
+  border-radius: 0px;
+}
+
+.main-nav-dropdown a {
+  color: #0d4f9a;
+  font-weight: 500;
+}
+
+.shop-btn {
   background-color: #0d4f9a;
   color: white;
+  margin-right: 30px;
+}
+
+.shop-btn:hover {
+  background-color: #0d4f9a;
+  color: white;
+}
+
+.main-nav-links a {
+  color: #0d4f9a;
+  font-weight: 500;
 }
 
 /* .right {
