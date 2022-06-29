@@ -91,6 +91,174 @@ span.search-contact {
   font-weight: 500;
 }
 
+.search-icon {
+  position: absolute;
+  right: 70px;
+  bottom: 16px;
+  color: #bdc7bfe1;
+  font-size: xx-large;
+}
+
+.bread-crumb {
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #3f87d8;
+  font-weight: 400;
+}
+
+.bread-crumb a {
+  text-decoration: none;
+  color: #1e77de;
+  font-weight: 400;
+}
+
+/* --------------------------------------------------main navbar end------------------------------------------ *
+
+
+
+
+/* --------------------------------------------------body start------------------------------------------ */
+
+.choose-pakage {
+  font-weight: 800;
+  font-size: x-large;
+  color: #0d4f9a;
+  text-align: center;
+}
+
+.select-money {
+  text-align: center;
+}
+
+.pakage-wide-buttons-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.one-time-purchase-btn {
+  /* display: inline-block; */
+  background-color: #0d4f9a;
+  border-color: #0d4f9a;
+  color: white;
+  font-weight: 800;
+  font-size: larger;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.subscribe-btn {
+  /* display: inline-block; */
+  background-color: white;
+  border-color: #0d4f9a;
+  color: #0d4f9a;
+  font-size: larger;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 4px;
+}
+
+.one-time-purchase-btn:hover {
+  cursor: default !important;
+  background-color: #0d4f9a;
+  color: white;
+}
+
+.subscribe-btn:hover {
+  cursor: default !important;
+  background-color: white;
+  color: #0d4f9a;
+}
+
+.offers-container {
+  padding: 30px 30px 30px;
+}
+
+.card-footer {
+  background-color: white;
+  border: none;
+}
+.card-flavor-button {
+  width: 90%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #2bb34d;
+  border-color: #2bb34d;
+}
+
+.card-flavor-button:hover {
+  background-color: #1fc749;
+  border-color: #1fc749;
+}
+
+.card-footer {
+  padding-top: 0;
+}
+
+.pakage .card-title {
+  font-size: 30px;
+  font-weight: 900;
+  color: #0d4f9a;
+}
+
+.pakage .price {
+  color: #2bb34d;
+}
+
+.pakage .discount {
+  font-size: 25px;
+  font-weight: 550;
+  color: red;
+}
+
+.pakage .card-body-text {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 32px;
+  padding-top: 10px;
+}
+
+.card-body {
+  padding-bottom: 1px;
+}
+
+.pakage-left {
+  border: 2px solid #0d4f9a;
+  border-right: 0;
+  border-radius: 0px;
+  margin-top: 15px;
+  height: 240px;
+}
+
+.pakage-right {
+  border: 2px solid #0d4f9a;
+  border-left: 0;
+  border-radius: 0px;
+  margin-top: 15px;
+  height: 240px;
+}
+
+.pakage-middle {
+  border: 5px solid #0d4f9a;
+  border-top: 3px;
+  border-radius: 0px;
+  height: 290px;
+}
+
+.pakage-middle .card-header {
+  background-color: #0d4f9a;
+  color: white;
+  border-radius: 0px;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0px;
+  text-align: center;
+}
+
 /* .right {
   display: inline;
 }
