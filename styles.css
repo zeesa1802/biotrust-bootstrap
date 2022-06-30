@@ -1,3 +1,9 @@
+.body-content {
+  border-top: 5px solid #0d4f9a;
+  border-bottom: 5px solid #0d4f9a;
+  padding-bottom: 15px;
+}
+
 /*------------------------------------------------Top Navbar Start------------------------------------------ */
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -61,7 +67,6 @@ span.search-contact {
 }
 
 .main-nav {
-  border-bottom: 5px solid #0d4f9a;
   padding-bottom: 2px;
   padding-top: 2px;
 }
@@ -100,11 +105,14 @@ span.search-contact {
 }
 
 .bread-crumb {
-  padding: 10px;
   margin-left: 10px;
   margin-top: 10px;
   color: #3f87d8;
   font-weight: 400;
+}
+
+.bread-crumb ol {
+  margin-bottom: 1px;
 }
 
 .bread-crumb a {
@@ -119,6 +127,8 @@ span.search-contact {
 
 
 /* --------------------------------------------------body start------------------------------------------ */
+
+/* ----------------------------------Offer Pakages (Right Grid) Start ------------------------------------------*/
 
 .choose-pakage {
   font-weight: 800;
@@ -190,6 +200,11 @@ span.search-contact {
   border-color: #2bb34d;
 }
 
+.pakage-middle .card-footer {
+  padding-top: 40px;
+  margin-bottom: 7px;
+}
+
 .card-flavor-button:hover {
   background-color: #1fc749;
   border-color: #1fc749;
@@ -200,12 +215,14 @@ span.search-contact {
 }
 
 .pakage .card-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 900;
   color: #0d4f9a;
 }
 
 .pakage .price {
+  padding-top: 10px;
+  font-size: 35px;
   color: #2bb34d;
 }
 
@@ -231,7 +248,15 @@ span.search-contact {
   border-right: 0;
   border-radius: 0px;
   margin-top: 15px;
-  height: 240px;
+  padding-bottom: 15px;
+}
+
+.pakage-left .price {
+  padding-bottom: 60px;
+}
+
+.pakage-middle .price {
+  padding-top: 0px;
 }
 
 .pakage-right {
@@ -239,14 +264,14 @@ span.search-contact {
   border-left: 0;
   border-radius: 0px;
   margin-top: 15px;
-  height: 240px;
+  padding-bottom: 15px;
 }
 
 .pakage-middle {
   border: 5px solid #0d4f9a;
   border-top: 3px;
   border-radius: 0px;
-  height: 290px;
+  /* padding-bottom: 40px; */
 }
 
 .pakage-middle .card-header {
@@ -258,6 +283,75 @@ span.search-contact {
   padding: 0px;
   text-align: center;
 }
+/* ----------------------------------Offer Pakages (Right Grid) END ------------------------------------------*/
+
+/* -------------------------Community Photos Horizontal Carousal(Right Grid) Start ------------------------------------------*/
+
+.padding-0 {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.carousal-container {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.community-photos-title {
+  padding-bottom: 10px;
+  text-align: center;
+  color: #0d4f9a;
+}
+
+.carousel-control-prev {
+  background-color: #e2e7ed;
+  width: 5%;
+}
+
+.carousel-control-next {
+  background-color: #e2e7ed;
+  width: 5%;
+}
+.carousel-control-prev-icon {
+  color: black !important;
+}
+.vertical-carousal-container {
+  border: 2px solid green;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  transform: rotate(0deg);
+}
+
+.im {
+  display: inline !important;
+  border: 2px solid #1e77de;
+}
+
+.vp {
+  position: absolute;
+  left: 60px;
+  top: 0px;
+  transform: rotate(90deg);
+  width: 20px;
+  height: 60px;
+}
+
+.vertical-carousal-container .carousel-item {
+  /* transform: rotate(90deg); */
+}
+
+.vertical-carousal-container img {
+  transform: rotate(0deg);
+}
+
+.containerv {
+  /* margin-bottom: 0px;
+  position: absolute; */
+}
+
+/* .vertical-carousal-row {
+  transform: rotate(90deg);
+} */
 
 /* .right {
   display: inline;
@@ -308,3 +402,50 @@ a {
   display: inline-block;
   padding-right: 20px;
 } */
+
+/* ---------------------------------------Middle grid Start--------------------------------- */
+.protein-powder-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #0d4f9a;
+}
+
+.rating-stars {
+  color: #2bb34d;
+  /* font-weight: 900; */
+  font-size: large;
+}
+
+.review-stats {
+  color: #0d4f9a;
+  font-weight: 300;
+  font-size: small;
+}
+
+.reviews {
+  text-align: center;
+}
+
+/* [1] The container */
+.img-hover-zoom {
+  text-align: center;
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  width: 98%;
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+.main-image-footer {
+  text-align: center;
+}
