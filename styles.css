@@ -405,6 +405,9 @@ img.bag-image {
   .mbl {
     font-size: small;
   }
+  .top-right-nav-list {
+    display: contents;
+  }
 }
 
 /* ----------------------------------Offer Pakages (Right Grid) END ------------------------------------------*/
