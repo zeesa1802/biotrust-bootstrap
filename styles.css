@@ -392,9 +392,37 @@ img.bag-image {
   }
 }
 
+@media (max-width: 400px) {
+  .pakage .card-flavor-button {
+    padding: 1px;
+    font-size: 11px;
+    font-weight: 500;
+    width: 25%;
+    right: 3px;
+  }
+  .card-body-text .price {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .pakage .discount {
+    padding-top: 5px;
+    font-size: 14px;
+  }
+  .pakage .card-body {
+    padding-left: 0;
+    margin-left: -10px;
+  }
+  .pakage-left .card-body {
+    margin-bottom: -19px;
+  }
+}
+
 @media (max-width: 800px) {
   .vertical-pics {
     display: none;
+  }
+  .review-section .featured .vertical {
+    padding-right: 0px;
   }
 }
 
@@ -640,11 +668,7 @@ a {
   }
 }
 
-/* .review-section {
-  padding-top: 20px;
-  background-color: #063469;
-} */
-
+/* .review-section { padding-top: 20px; background-color: #063469; } */
 .review-section {
   padding-top: 50px;
   background-color: #0d4f9a;
