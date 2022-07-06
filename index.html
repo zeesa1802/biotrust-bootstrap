@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biotrust</title>
-    <!-- CSS only -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,14 +22,20 @@
       src="https://kit.fontawesome.com/ca05adeb85.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row top-nav">
-        <div class="col-4 top-nav-font">
-          <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="row top-nav" ;>
+        <div class="col-5 top-nav-font">
+          <nav class="navbar navbar-expand-sm navbar-dark" style="padding: 0px">
             <div class="container">
               <ul class="navbar-nav">
                 <span class="d-none d-lg-block">
@@ -57,7 +63,7 @@
                       style="width: 19px; height: 26px; display: inline-block"
                   /></a>
                   <a
-                    class="nav-link mbl"
+                    class="nav-link mbl top-nav"
                     href="#"
                     style="display: inline-block"
                   >
@@ -68,8 +74,8 @@
             </div>
           </nav>
         </div>
-        <div class="col-8 top-nav-font">
-          <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="col-7 top-nav-font">
+          <nav class="navbar navbar-expand-sm navbar-dark" style="padding: 0">
             <div class="container justify-content-end">
               <ul class="navbar-nav top-right-nav-list">
                 <span class="navbar-brand user-ico">
@@ -128,10 +134,23 @@
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
-      <div class="container-fluid">
-        <span class="biotrust-image">
-          <a href="#"> <img class="img-fluid" src="assets/biotrust.webp" /></a>
-        </span>
+      <div
+        class="container-fluid"
+        style="
+          background-image: url('assets/header-background.webp');
+          background-color: white;
+        "
+      >
+        <div class="row main-image-container">
+          <div class="col-12">
+            <span class="biotrust-image">
+              <a href="#">
+                <img class="img-fluid" src="assets/biotrust.webp"
+              /></a>
+            </span>
+          </div>
+        </div>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -224,7 +243,11 @@
                 >CALL US: 800-766-5086</a
               >
 
-              <a class="navbar-brand" href="#" style="margin-right: 0">
+              <a
+                class="navbar-brand"
+                href="#"
+                style="margin-right: 0; padding-top: 0"
+              >
                 <img
                   src="assets/contact"
                   alt="Avatar Logo"
@@ -342,6 +365,7 @@
             <div class="col-md-6">
               <button class="btn btn-primary nohover subscribe-btn">
                 Subscribe & Save 36%
+                <i class="fa-solid fa-circle-question question-mark"></i>
               </button>
             </div>
           </div>
@@ -562,8 +586,8 @@
       <div class="product-detail-container">
         <div class="row">
           <div class="col-md-6">
-            <h5 class="detail-heading">The No-Clump Collagen Protein Powder</h5>
-            <h6>
+            <h2 class="detail-heading">The No-Clump Collagen Protein Powder</h2>
+            <h6 class="sub-detail">
               Ageless Multi-Collagen Provides You 5 Types of Collagen to
               Support:
             </h6>
@@ -576,7 +600,9 @@
               </li>
             </ul>
 
-            <h6>Plus, Every Serving of Ageless Multi-Collagen is:</h6>
+            <h6 class="sub-detail">
+              Plus, Every Serving of Ageless Multi-Collagen is:
+            </h6>
             <ul class="points">
               <li>
                 Loaded with 10 Grams of Collagen Protein (per serving) including

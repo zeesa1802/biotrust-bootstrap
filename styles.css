@@ -1,3 +1,6 @@
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
 .body-content {
   border-top: 5px solid #0d4f9a;
   border-bottom: 5px solid #0d4f9a;
@@ -5,13 +8,16 @@
 }
 
 /*------------------------------------------------Top Navbar Start------------------------------------------ */
+
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
 
 .top-nav {
+  font-size: 1.1rem;
   background-color: #0d4f9a;
+  letter-spacing: 1.5px;
 }
 
 .top-nav a {
@@ -40,9 +46,27 @@ span.user-ico {
   margin-right: 0;
 }
 
+.navbar-brand {
+  margin-right: 0px;
+}
+
 /* -------------------------------------------------Top Navbar End-------------------------------------------- */
 
 /* --------------------------------------------------main navbar start------------------------------------------ */
+.navbar-collapse .nav-item span {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+.navbar-collapse .nav-item a {
+  line-height: 1.5;
+  color: #0d4f9a;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
 
 span.search-contact {
   font-size: 11px;
@@ -51,6 +75,15 @@ span.search-contact {
   /* vertical-align: middle; */
   /* margin-bottom: 11px; */
   /* text-align: end; */
+}
+
+.search-contact a {
+  display: inline-block;
+  text-shadow: 0.6px 0 #2bb34d;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+  vertical-align: middle;
 }
 
 .search {
@@ -64,6 +97,7 @@ span.search-contact {
 .biotrust-image {
   padding-left: 50px;
   padding-right: 50px;
+  width: 60%;
 }
 
 .main-nav {
@@ -81,9 +115,13 @@ span.search-contact {
 }
 
 .shop-btn {
-  background-color: #0d4f9a;
-  color: white;
-  margin-right: 30px;
+  background-color: var(--color-nav-bg, #0d4f9a);
+  border-radius: 7px;
+  color: var(--color-nav-text, #fff);
+  padding: 15px;
+  padding-left: 20px;
+  margin-right: 25px !important;
+  margin-left: unset !important;
 }
 
 .shop-btn:hover {
@@ -98,10 +136,26 @@ span.search-contact {
 
 .search-icon {
   position: absolute;
-  right: 70px;
-  bottom: 16px;
+  right: 50px;
+  bottom: 5px;
   color: #bdc7bfe1;
   font-size: xx-large;
+}
+.biotrust-image img {
+  width: 60%;
+}
+@media (max-width: 1000px) {
+  .biotrust-image img {
+    width: 50%;
+    padding-right: 0;
+  }
+  .biotrust-image {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main-image-container {
+    width: 70%;
+  }
 }
 
 .bread-crumb {
@@ -173,13 +227,13 @@ span.search-contact {
 }
 
 .one-time-purchase-btn:hover {
-  cursor: default !important;
+  /* cursor: default !important; */
   background-color: #0d4f9a;
   color: white;
 }
 
 .subscribe-btn:hover {
-  cursor: default !important;
+  /* cursor: default !important; */
   background-color: white;
   color: #0d4f9a;
 }
@@ -610,11 +664,32 @@ a {
 }
 .detail-heading {
   margin-top: 30px;
+  line-height: 1.2;
+  font-style: normal;
   margin-bottom: 30px;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.5mm;
+  padding-bottom: 2px;
+}
+.footer-detail-left {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-style: normal;
+  font-weight: 400;
+}
+.sub-detail {
+  font-weight: 600;
+  letter-spacing: 0.2mm;
 }
 
 .product-detail-container .points {
   margin-bottom: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.product-detail-container .points li {
+  margin-bottom: 4px;
 }
 
 .product-detail-container h6 {
@@ -635,7 +710,7 @@ a {
 }
 .footer .sections > div {
   border: 1px solid white;
-  background-color: #0d4f9a;
+  background-color: #063d7d;
   color: white;
   font-size: larger;
   font-weight: 350;
@@ -652,6 +727,11 @@ a {
   height: 50px;
   position: relative;
   top: -25px;
+}
+
+.featured h1 {
+  font-size: 3.5em;
+  font-weight: 700;
 }
 
 @media (max-width: 780px) {
@@ -757,6 +837,16 @@ a {
     font-size: larger;
   }
 }
+.subscribe-btn {
+  position: relative;
+}
+.question-mark {
+  color: #2bb34d;
+  position: absolute;
+  top: -11px;
+  right: -11px;
+  font-size: medium;
+}
 
 .vertical-pics {
   padding-top: 80px;
@@ -768,7 +858,7 @@ a {
   width: 80px;
   height: 80px;
   margin-bottom: 10px;
-  /* margin-left: 100px; */
+  margin-left: 60px;
 }
 
 .side-fixed-review {
